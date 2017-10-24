@@ -1,0 +1,28 @@
+[
+	{ "keys": ["w","w"], "command": "exit_insert_mode",
+		"context":
+		[
+			{ "key": "setting.command_mode", "operand": false },
+			{ "key": "setting.is_widget", "operand": false }
+		]
+	},
+    { "keys": ["ctrl+shift+n"], "command": "advanced_new_file_new"},
+    {"keys": ["control+;"], "command": "run_macro_file", "args": {  "file": "Packages/User/EOL_semicolon.sublime-macro"}},
+    {"keys": ["ctrl+space"],"command": "run_macro_file", "args": {  "file": "Packages/User/EndOfSymbol.sublime-macro"}},
+    {"keys": ["alt+e"],"command": "run_macro_file", "args": {  "file": "Packages/User/DeleteEOL.sublime-macro"}},
+    {"keys": ["ctrl+shift+["],"command": "run_macro_file", "args": {"file": "Packages/User/MultiLineArray.sublime-macro"}},
+    {"keys": ["alt+w"],"command": "run_macro_file", "args": {"file": "Packages/User/clean/DeleteWord.sublime-macro"}},
+    {"keys": ["alt+shift+["],"command": "run_macro_file", "args": {"file": "Packages/User/clean/DeleteInsideCurlybraces.sublime-macro"}},
+    {"keys": ["alt+["],"command": "run_macro_file", "args": {"file": "Packages/User/clean/DeleteInsideSquareBrackets.sublime-macro"}},
+    {"keys": ["alt+1"],"command": "run_macro_file", "args": {"file": "Packages/User/clean/DeleteInsideSinglequotes.sublime-macro"}},
+    {"keys": ["alt+2"],"command": "run_macro_file", "args": {"file": "Packages/User/clean/DeleteInsideDoublequotes.sublime-macro"}},
+    {"keys": ["alt+`"],"command": "run_macro_file", "args": {"file": "Packages/User/clean/DeleteInsideBrackets.sublime-macro"}},
+    { "keys": ["ctrl+m"], "command": "auto_complete" },
+    { "keys": ["ctrl+m"], "command": "replace_completion_with_auto_complete", "context":
+        [
+            { "key": "last_command", "operator": "equal", "operand": "insert_best_completion" },
+            { "key": "auto_complete_visible", "operator": "equal", "operand": false },
+            { "key": "setting.tab_completion", "operator": "equal", "operand": true }
+        ]
+    },
+]

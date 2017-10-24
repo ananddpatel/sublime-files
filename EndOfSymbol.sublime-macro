@@ -1,0 +1,10 @@
+[
+	{
+		"args":
+		{
+			"by": "word_ends",
+			"forward": true
+		},
+		"command": "move"
+	}
+]

@@ -1,0 +1,19 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"BracketHighlighter",
+		"DocBlockr",
+		"Emmet",
+		"GitGutter",
+		"Laravel Blade Highlighter",
+		"Material Theme",
+		"Package Control",
+		"SublimeLinter",
+		"SublimeLinter-phpcs"
+	]
+}
